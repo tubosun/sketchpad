@@ -1,13 +1,18 @@
 body{
 	background:linear-gradient(70deg,#0b0b0b, #afb3bc);
+	color: #edb3d6;
 }
 
+header{
+	font-weight: 700;
+	font-size: 50px;
+}
 #container{
 	height:800px;
 	width: 800px;
-	border: 1px solid black;
+	//border: 1px solid black;
 	margin:auto;
-	background-color:#edb3d6;
+	background-color:#fff;
 	margin-top:20px;
 }
 .sq{
@@ -15,10 +20,15 @@ body{
 	background-color: #edb3d6;
 	outline: 1px solid black;
 	display: inline-block;
-	
-	
 }
+
+
+
 button{
 	margin-top:20px;
 	
+}
+
+footer{
+	margin-top: 40px;
 }
